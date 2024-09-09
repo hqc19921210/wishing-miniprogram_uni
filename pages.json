@@ -1,0 +1,205 @@
+{
+	"pages": [
+		{
+			"path": "pages/first/first",
+			"style": {
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/article/article",
+			"style": {
+				"usingComponents": {},
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/article-info/article-info",
+			"style": {
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/collect/collect",
+			"style": {
+				"usingComponents": {
+						"van-tabs": "/wxcomponents/vant/tabs/index",
+						"van-tab": "/wxcomponents/vant/tab/index"
+				}
+			}
+		},
+		{
+			"path": "pages/message-list/message-list",
+			"style": {
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/sys-message/sys-message",
+			"style": {
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/mine-info/mine-info",
+			"style": {
+				"usingComponents": {},
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/assistant/assistant",
+			"style": {
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/assistant-done/assistant-done",
+			"style": {
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/prayer-form/prayer-form",
+			"style": {
+				"usingComponents": {
+					"select": "/components/select/select",
+					"picker": "/components/picker/picker"
+				}
+			}
+		},
+		{
+			"path": "pages/prayer-choose/prayer-choose",
+			"style": {
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/prayer-pay/prayer-pay",
+			"style": {
+				"usingComponents": {
+					"picker": "/components/picker/picker"
+				}
+			}
+		},
+		{
+			"path": "pages/prayer-info/prayer-info",
+			"style": {
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/prayer-success/prayer-success",
+			"style": {
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/redeem/redeem",
+			"style": {
+				"usingComponents": {
+					"picker": "/components/picker/picker"
+				}
+			}
+		},
+		{
+			"path": "pages/my-prayer/my-prayer",
+			"style": {
+				"usingComponents": {
+					"picker": "/components/picker/picker"
+				}
+			}
+		},
+		{
+			"path": "pages/score/score",
+			"style": {
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/prayer-pool/prayer-pool",
+			"style": {
+				"usingComponents": {}
+			}
+		}
+	],
+	"sitemapLocation": "sitemap.json",
+	"tabBar": {
+		"custom": true,
+		"color": "#000000",
+		"selectedColor": "#000000",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/images/icons/home.png",
+				"selectedIconPath": "static/images/icons/home.png"
+			},
+			{
+				"pagePath": "pages/assistant/assistant",
+				"text": "愿望助手",
+				"iconPath": "static/images/icons/home.png",
+				"selectedIconPath": "static/images/icons/home.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/images/icons/user.png",
+				"selectedIconPath": "static/images/icons/user.png"
+			}
+		]
+	},
+	"networkTimeout": {
+		"request": 10000,
+		"downloadFile": 10000
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^wishing-search$": "components/wishing-search/wishing-search",
+			"^wishing-navigation$": "components/wishing-navigation/wishing-navigation",
+			"^wishing-tab-bar$": "components/wishing-tab-bar/wishing-tab-bar",
+			"^wishing-bg$": "components/wishing-bg/wishing-bg",
+			"^van-icon$": "vant/icon/index",
+			"^van-button$": "vant/button/index",
+			"^van-loading$": "vant/loading/index",
+			"^van-skeleton$": "vant/skeleton/index",
+			"^van-tab$": "vant/tab/index",
+			"^van-tabs$": "vant/tabs/index",
+			"^van-grid$": "vant/grid/index",
+			"^van-grid-item$": "vant/grid-item/index",
+			"^van-search$": "vant/search/index"
+		}
+	},
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#DDECF7",
+		"navigationBarTitleText": "祈愿池 | 相信奇迹，坚信信念",
+		"navigationBarTextStyle": "black",
+		"navigationStyle": "custom",
+		"usingComponents": {
+			"van-icon": "/wxcomponents/vant/icon/index",
+			"van-button": "/wxcomponents/vant/button/index",
+			"van-loading": "/wxcomponents/vant/loading/index",
+			"van-skeleton": "/wxcomponents/vant/skeleton/index",
+			"van-tab": "/wxcomponents/vant/tab/index",
+			"van-tabs": "/wxcomponents/vant/tabs/index",
+			"van-grid": "/wxcomponents/vant/grid/index",
+			"van-grid-item": "/wxcomponents/vant/grid-item/index",
+			"van-search": "/wxcomponents/vant/search/index"
+			
+		}
+	},
+	"subPackages": []
+}
